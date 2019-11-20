@@ -12,7 +12,7 @@
 $(function() {
     "user strict";
     
-    const urlCSS = "https://files.catbox.moe/scfyj3.css"
+    const urlCSS = "https://cdn.jsdelivr.net/gh/nearata/fibraclick-darkmode@master/tema-scuro.min.css"
   
     let span = $("<span />", {
       "id": "tema-scuro",
