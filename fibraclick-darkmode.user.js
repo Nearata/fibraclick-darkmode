@@ -10,7 +10,7 @@
 // ==/UserScript==
 
 $(function() {
-    "user strict";
+    "use strict";
     
     const urlCSS = "https://cdn.jsdelivr.net/gh/nearata/fibraclick-darkmode@master/tema-scuro.min.css"
   
