@@ -9,7 +9,8 @@ body {
 .Modal-content,
 .Modal-body .FormControl,
 .DiscussionHero .TagsLabel .TagLabel,
-.Composer.active, .Composer.fullScreen {
+.Composer.active,
+.Composer.fullScreen {
     background-color: hsl(0, 0%, 15%) !important;
 }
 
