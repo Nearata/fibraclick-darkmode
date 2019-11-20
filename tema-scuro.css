@@ -1,0 +1,113 @@
+body {
+    background-color: hsl(0, 0%, 15%);
+    color: hsl(0, 0%, 90%);
+}
+
+.App::before,
+.Dropdown-menu,
+.DiscussionPage-list,
+.Modal-content,
+.Modal-body .FormControl,
+.DiscussionHero .TagsLabel .TagLabel,
+.Composer.active, .Composer.fullScreen {
+    background-color: hsl(0, 0%, 15%) !important;
+}
+
+.DiscussionHero .TagsLabel .TagLabel:not(:last-child) {
+    margin-right: 5px;
+}
+
+.Dropdown-menu > li > a:hover,
+.Dropdown-menu > li > button:hover,
+.DiscussionListItem:hover,
+.DiscussionSearchResult:hover,
+.FormControl,
+.PostMention,
+.UserMention,
+.Post-body blockquote,
+.DiscussionPage-list .DiscussionListItem.active,
+.Modal-body,
+.TagDiscussionModal .Modal-header,
+.Button:not(.LogInButton):not(.Button--primary):not(.Button--rounded):not(.Button--flat),
+.Notification:hover,
+.NotificationGrid,
+.SelectTagList > li.active {
+    background-color: hsl(0, 0%, 20%);
+}
+
+.Post-body blockquote {
+    border-color: transparent;
+}
+
+a.wiki,
+.PostUser h3,
+.PostUser h3 a,
+.DiscussionListItem-title,
+.Dropdown-menu,
+.Dropdown-menu > li > a,
+.Dropdown-menu > li > button,
+.Dropdown-menu > li > span,
+.Dropdown-header,
+.FormControl:focus,
+.FormControl.focus,
+.Modal-body .FormControl,
+.unread .DiscussionListItem-count,
+.DiscussionListItem-info .TagLabel .TagLabel-text,
+legend {
+    color: hsl(0, 0%, 90%);
+}
+
+.Scrubber-handle,
+.Avatar {
+    background-color: transparent;
+}
+
+hr,
+.PostStream-item:not(:last-child),
+.Flagrow-Ads-fake-poststream-item,
+.Scrubber-before,
+.Scrubber-after,
+.PostsUserPage-list > li,
+.UserCard-avatar .Avatar,
+.PostUser-avatar,
+.ReplyPlaceholder:hover,
+.Post-body a,
+.NotificationList-header,
+.App-content,
+.DiscussionPage-list,
+.NotificationGrid td,
+.NotificationGrid th,
+.TextEditor-controls {
+    border-color: hsl(0, 0%, 25%);
+}
+
+.disabled .Scrubber-bar,
+.FormControl:focus,
+.FormControl.focus,
+blockquote .PostMention,
+blockquote .UserMention,
+.Dropdown-separator,
+.Button:hover:not(.LogInButton):not(.Button--primary):not(.Button--rounded),
+.Button:focus:not(.LogInButton):not(.Button--primary):not(.Button--rounded),
+.Button.focus:not(.LogInButton):not(.Button--primary):not(.Button--rounded) {
+    background-color: hsl(0, 0%, 25%);
+}
+
+.Button:active:not(.LogInButton):not(.Button--primary),
+.Button.active:not(.LogInButton):not(.Button--primary),
+.open > .Dropdown-toggle.Button {
+    background-color: hsl(0, 0%, 30%);
+}
+
+.modal-backdrop {
+    background-color: hsla(0, 0%, 15%, .9);
+}
+
+.Scrubber-unread {
+    border-color: hsl(135, 20%, 50%);
+    background: none;
+}
+
+.Composer {
+    background-color: hsla(0, 0%, 15%, .95);
+}
