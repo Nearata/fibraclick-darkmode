@@ -15,6 +15,10 @@
 - [Greasefork](https://greasyfork.org/it/scripts/392711)
 - [Github](https://github.com/Nearata/fibraclick-darkmode/raw/master/fibraclick-darkmode.user.js)
 
+## Utilizzo
+
+Una volta installato lo script utente, vi si creerà un bottone in alto a destra per attivare/disattivare la modalità scura.
+
 ## License
 
 Distributed under the MIT license. See ``LICENSE`` for more information.
