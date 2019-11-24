@@ -80,7 +80,8 @@ hr,
 .DiscussionPage-list,
 .NotificationGrid td,
 .NotificationGrid th,
-.TextEditor-controls {
+.TextEditor-controls,
+.Dropdown-header {
     border-color: hsl(0, 0%, 25%);
 }
 
