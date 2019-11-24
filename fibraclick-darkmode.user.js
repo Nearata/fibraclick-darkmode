@@ -3,16 +3,21 @@
 // @namespace https://greasyfork.org/en/users/221935
 // @match https://forum.fibra.click/*
 // @grant none
-// @version 1.0
+// @version 1.1
 // @author Nearata
-// @description Modalità scura per il forum di FibraClick
+// @description Modalità scura/notte per il forum di FibraClick
 // @license MIT
+// @run-at document-end
+// @homepageURL https://github.com/Nearata/fibraclick-darkmode
+// @supportURL https://github.com/Nearata/fibraclick-darkmode/issues
+// @downloadURL https://github.com/Nearata/fibraclick-darkmode/raw/master/fibraclick-darkmode.user.js
 // ==/UserScript==
 
 $(function() {
     "use strict";
     
-    const urlCSS = "https://cdn.jsdelivr.net/gh/nearata/fibraclick-darkmode@master/tema-scuro.min.css"
+    // Link al file css del tema scuro
+    const urlCSS = "https://cdn.jsdelivr.net/gh/nearata/fibraclick-darkmode@1.1/tema-scuro.min.css"
   
     let span = $("<span />", {
       "id": "tema-scuro",
@@ -29,7 +34,6 @@ $(function() {
     }).css({
       "font-size": "1rem"
     });
-    // Tema scuro 
     let temaScuro = $("<link />", {
       "rel": "stylesheet",
       "href": urlCSS,
