@@ -32,7 +32,9 @@ body {
 .Button:not(.LogInButton):not(.Button--primary):not(.Button--rounded):not(.Button--flat),
 .Notification:hover,
 .NotificationGrid,
-.SelectTagList > li.active {
+.SelectTagList > li.active,
+.Dropdown-menu > li.active > a,
+.Dropdown-menu > li.active > button {
     background-color: hsl(0, 0%, 20%);
 }
 
