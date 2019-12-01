@@ -115,3 +115,8 @@ blockquote .UserMention,
 .Composer {
     background-color: hsla(0, 0%, 15%, .95);
 }
+
+.Post-body pre {
+    background: hsl(0, 0%, 16.5%);
+    color: hsl(0, 0%, 45%);
+}
